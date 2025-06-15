@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+body {
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #212529;
+}
+
+.dm-sans-font {
+    font-family: 'DM Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* NavBar  */
+
+.dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    text-align: center;
+    padding: 5px 7px;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Project Management */
+
+.project-bg-img {
+    background-image: url('/images/BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-position: right 113% top 152px;
+    background-size: 168.75px 209.54px;
+}
+
+
+/* Project Management Tablet */
+
+@media (width>=48rem) {
+    .project-bg-img {
+        background-size: 356.14px 270.61px;
+        background-position: right 134% top 3px;
+    }
+}
+
+
+/* Project Management Laptop */
+
+@media (width>=64rem) {
+    .project-bg-img {
+        background-position: right 134% top 3px;
+    }
+}
+
+
+/* Project Management Desktop */
+
+@media (width>=80rem) {
+    .project-bg-img {
+        background-position: right 113% top 189px;
+    }
+}
+
+.pay-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Swipper Payment Card */
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+}
