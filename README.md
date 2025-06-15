@@ -12,4 +12,4 @@ This project is a modern and responsive web interface built with **React** based
 
 - Swiper.js or other UI libraries (if applicable)
 
-<!-- []() -->
+Here is the link to the [completed project](https://whitepace-saa-s-landing-page-es82.vercel.app/)
