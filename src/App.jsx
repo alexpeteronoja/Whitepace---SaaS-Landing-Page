@@ -1,5 +1,5 @@
 import './App.css';
-import Button from './components/button';
+import Button from './components/Button';
 import Navbar from './components/Navbar';
 import PayCard from './components/PayCard';
 import Testimonial from './components/Testimonials';
